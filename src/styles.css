@@ -36,7 +36,7 @@ body {
 
 .btn:hover,
 .btn:focus-visible {
-    background: hsla(189, 100%, 52%, 0.2);
+    background: hsla(189, 19%, 78%, 0.2);
 }
 
 .btn.btn-danger {
@@ -56,7 +56,7 @@ body {
     background: hsl(202, 17%, 91%);
     border-radius: 0.25em;
     padding: 0.25em 0.5em;
-    color: hsl(200, 100%, 90%);
+    color: hsl(0, 0%, 0%);
 }
 
 .new-item-form input:focus {
@@ -77,7 +77,7 @@ body {
 }
 
 .list li:has(input:checked) label {
-    color: hsl(194, 6%, 39%);
+    color: hsl(196, 8%, 46%);
 }
 
 .list {
@@ -130,7 +130,7 @@ body {
 
 .list li:has(input:checked) label::before {
     content: "✔";
-    background: hsl(200, 100%, 40%);
+    background: hsla(229, 85%, 46%, 0.562);
     color: hsl(200, 100%, 90%);
     font-size: 0.75rem;
     font-weight: bold;
